@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import demoLogo from '../images/demo-logo.png';
 import { login } from '../redux/api';
 import Cookies from 'js-cookie';
-
+import CircularProgress from '@mui/material/CircularProgress';
 import '../styles/LoginPage.css';
 
 const initialData = {
@@ -14,7 +14,7 @@ const initialData = {
 const LoginPage = () => {
   const history = useHistory();
   const [formData, setFormData] = useState(initialData);
-
+  const [isloading,setIsLoading] = useState(false);
   const handleChange = (e) => {
     const { name } = e.target;
     setFormData({ ...formData, [name]: e.target.value });
@@ -22,12 +22,15 @@ const LoginPage = () => {
 
   const handleLogin = async () => {
     if (formData.email && formData.password) {
+      setIsLoading(true);
       try {
         const { data } = await login(formData);
         // console.log(data);
         Cookies.set('goorooitAdmin', data.token);
+        setIsLoading(false);
         history.push('/home');
       } catch (error) {
+        setIsLoading(false);
         console.log(error);
       }
     } else {
@@ -80,7 +83,7 @@ const LoginPage = () => {
           </div>
           <div className='loginPage-submitBtnDiv'>
             <button className='loginPage-submitBtn' onClick={handleLogin}>
-              Log In
+              {isloading ?<CircularProgress size={15} color="inherit"/> : 'Log In'}
             </button>
           </div>
         </div>
