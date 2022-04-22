@@ -1,0 +1,203 @@
+.employeeDetails-container {
+  width: 95%;
+  padding: 1rem 0;
+  margin: auto;
+}
+
+.employeeDetails-personalInfoDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.employeeDetails-leftDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+}
+
+.employeeDetails-imageDiv {
+  width: 120px;
+  height: 120px;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+
+.employeeDetails-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.employeeDetails-infoDiv {
+  width: 50%;
+}
+
+.employeeDetails-infoPara {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: #155b89;
+  margin: 10px 0;
+}
+
+.employeeDetails-infoPara .employeeDetails-infoSpan {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.employeeDetails-leftBtnDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.employeeDetails-leftBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c7ebf;
+  color: #fff;
+  width: 48%;
+  padding: 4px;
+  border: none;
+  outline: none;
+  border-radius: 22px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.iconBtn {
+  height: 22px;
+  width: 22px;
+  object-fit: cover;
+  margin-left: 8px;
+}
+
+.employeeDetails-rightDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.employeeDetails-rightBtnDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 90%;
+  margin-right: auto;
+}
+.employeeDetails-rightBtn {
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 31px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: transparent;
+  padding: 3px 25px;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+
+.block {
+  border: 2px solid #1c7ebf;
+  color: #1c7ebf;
+  margin-right: 10px;
+}
+
+.delete {
+  border: 2px solid #fc3c00;
+  color: #fc3c00;
+  margin-left: 10px;
+}
+
+/**** Income Section  ****/
+
+.employeeDetails-incomeSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.employeeDetails-incomeCardDiv {
+  width: 25%;
+}
+
+.employeeDetails-incomeCardLabel {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #2d2d2d;
+  margin: 10px 5px;
+}
+
+.employeeDetails-incomeCard {
+  background: linear-gradient(
+    75.72deg,
+    #05478a 4.63%,
+    #73bcf8 106.33%,
+    #05478a 106.92%
+  );
+  box-shadow: 4px 4px 4px rgba(4, 97, 182, 0.15),
+    -4px 4px 4px rgba(109, 92, 252, 0.15);
+  border-radius: 16px;
+  padding: 8px 20px;
+}
+
+.employeeDetails-incomeCardTitle {
+  font-weight: normal;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.employeeDetails-income {
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.employeeDetails-ordersDiv {
+  width: 15%;
+}
+
+.employeeDetails-orderTitle {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  color: #223263;
+  margin: 10px 0;
+}
+
+.employeeDetails-order {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+  color: #223263;
+}

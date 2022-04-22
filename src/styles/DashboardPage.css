@@ -1,0 +1,267 @@
+.dashboard-container {
+  width: 95%;
+  margin: auto;
+}
+
+.dashboard-firstSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.dashboard-searchDiv {
+  width: 60%;
+  padding: 8px 15px;
+  border: 2px solid #1c7ebf;
+  border-radius: 31px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dashboard-dateDiv {
+  width: 23%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.dashboard-dateInput {
+  padding: 8px 10px;
+  border: 1px solid #1c7ebf;
+  border-radius: 31px;
+  width: 68%;
+  background-color: transparent;
+  outline: none;
+}
+
+.dashboard-dateSearchBtn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.searchBtnIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.searchIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+
+.dashboard-searchInput {
+  width: 100%;
+  /* padding: 8px 15px; */
+  border: none;
+  box-sizing: border-box;
+  /* border-radius: 31px; */
+  background-color: inherit;
+  outline: none;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1c7ebf;
+}
+
+#searchInput:before {
+  content: url('../images/searchIcon.svg');
+  padding-right: 10px;
+}
+
+.dashboard-searchInput::placeholder {
+  color: #1c7ebf;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.dashboard-downloadDiv {
+  width: 20%;
+}
+
+.dashboard-downloadBtn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  background: #1c7ebf;
+  border: none;
+  border-radius: 31px;
+  padding: 8px 10px;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dashboard-downloadBtn span {
+  margin-left: 10px;
+}
+
+.dashboard-printDiv {
+  width: 15%;
+}
+
+.dashboard-filterDiv {
+  width: 10%;
+}
+
+.dashboard-filterBtn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1c7ebf;
+  cursor: pointer;
+}
+
+.dashboard-filterBtn span {
+  margin-left: 10px;
+}
+
+.dashboard-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/*** Income Section ****/
+
+.incomeCard-container {
+  width: 50%;
+  background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  padding: 8px 15px;
+  height: 270px;
+}
+
+.incomeCard-title {
+  margin: 5px 10px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 20px;
+  color: #404040;
+}
+
+.cardDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.incomeCard-div {
+  width: 55%;
+  border-right: 1px solid #e8e8e8;
+  margin: 1rem 0;
+}
+
+.incomeCard {
+  background: linear-gradient(180deg, #197bbd 0%, #3391d0 100%);
+  border-radius: 26px;
+  width: 90%;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.incomeCard-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.income-label {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 13px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.income-amount {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.income-amount span {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+
+.users-div {
+  padding-right: 10px;
+  text-align: right;
+}
+
+.user-content {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.user-numbers {
+  margin: 0;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+
+  color: #197bbd;
+}
+.user-label {
+  margin: 0;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 14px;
+  color: #aeaeae;
+}
+
+.graph-container {
+  width: 45%;
+  height: 270px;
+  background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.graph-headerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.graph-head {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: #192a3e;
+  margin-top: 5px;
+}

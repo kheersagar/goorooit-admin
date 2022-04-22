@@ -1,0 +1,118 @@
+.eventDetail-container {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.eventDetail-cardDiv {
+  width: 65%;
+  margin: auto;
+  padding: 15px 25px;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  border-radius: 8px;
+}
+
+.eventHeaderDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventDetail-pageTitle {
+  width: 90%;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 22px;
+  color: #303030;
+  margin-top: 5px;
+}
+.eventDetail-editSpan {
+  color: #0355ac;
+  text-decoration: underline;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.eventDetail-rowWise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.eventDetail-label {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 13px;
+  color: #303030;
+  margin-bottom: 10px;
+  /* margin-left: 5px; */
+}
+
+.eventDetail-para {
+  margin: 0;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  color: #303030;
+  text-align: center;
+}
+
+.eventDetail-columnWise {
+  margin: 1rem 0;
+}
+
+.rowWise {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.eventDetail-profs {
+  margin: 5px 0;
+  width: 32%;
+}
+
+.eventDetail-btnDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.eventDetail-btn {
+  padding: 6px 12px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  border-radius: 21px;
+  outline: none;
+  cursor: pointer;
+}
+
+.red {
+  color: #b5150c;
+  border: 1px solid #b5150c;
+}
+
+.green {
+  color: #199a0f;
+  border: 1px solid #199a0f;
+}
+
+.blue {
+  color: #0355ac;
+  border: 1px solid #0355ac;
+}

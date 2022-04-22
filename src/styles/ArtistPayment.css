@@ -1,0 +1,62 @@
+.artistPay-container {
+  margin-top: 2%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.artistPay-heading {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 24px;
+  color: #000000;
+}
+
+.artistPay-content {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #858282;
+}
+
+.artistPay-amount {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #858282;
+  margin: 0;
+}
+
+.artistPay-inputField {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 20%;
+  padding: 10px 15px;
+  border: 0.5px solid #155b89;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.artistPay-btn {
+  width: 20%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: #155b89;
+  box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+  border-radius: 8px;
+  font-family: Mulish;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffffff;
+  cursor: pointer;
+}

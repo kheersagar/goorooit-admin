@@ -1,0 +1,23 @@
+.payout-container {
+  width: 90%;
+  margin: auto;
+}
+
+.payout-headerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.monthDropDown {
+  padding: 10px;
+  width: 20%;
+  margin-right: 1rem;
+  border-radius: 8px;
+  border: 1px solid #223263;
+  font-size: 18px;
+  background-color: transparent;
+  outline: none;
+}

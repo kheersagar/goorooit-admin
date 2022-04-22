@@ -1,0 +1,106 @@
+.skill-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.skill-skillContainer {
+  width: 60%;
+  margin: auto;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  padding: 15px 25px;
+  border-radius: 8px;
+  min-height: 40vh;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.skill-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-infoDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #b5bbbf;
+}
+
+.skill-skillName {
+  width: 50%;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #155b89;
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.skill-skillPrice {
+  /* width: 45%; */
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: #155b89;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.skill-skillPriceDiv {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-skillName {
+  padding: 8px;
+  border: 1px solid #155b89;
+  border-radius: 8px;
+  outline: none;
+  background-color: transparent;
+  width: 35%;
+  font-size: 13px;
+}
+
+.edit-skillPrice {
+  padding: 8px;
+  border: 1px solid #155b89;
+  border-radius: 8px;
+  outline: none;
+  background-color: transparent;
+  width: 20%;
+  font-size: 13px;
+}
+
+.editInputDiv {
+  padding: 8px 0;
+}
+
+.skill-actionBtn {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+
+.skill-addBtnDiv {
+  width: 60%;
+  margin: 1rem auto;
+}
+
+.skill-addBtn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #155b89;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
