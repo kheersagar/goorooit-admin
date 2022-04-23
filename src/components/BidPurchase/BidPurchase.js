@@ -160,7 +160,7 @@ const BidPurchase = () => {
                     <th>Email</th>
                     <th>Level</th>
                     <th>Booking Price</th>
-                    <th>Questions Remaining</th>
+                    <th>Bids Remaining</th>
                     <th>Order ID</th>
                     <th>Amount</th>
                     <th>Bids</th>
@@ -177,7 +177,7 @@ const BidPurchase = () => {
                       <td className="cursor">{bid.guru.email}</td>
                       <td className="cursor">{bid.guru.level}</td>
                       <td className="cursor">{bid.guru.bookingPrice}</td>
-                      <td className="cursor">{bid.guru.questionsRemaining}</td>
+                      <td className="cursor">{bid.bids}</td>
                       <td className="cursor">{bid.orderId}</td>
                       <td className="cursor">{bid.amount}</td>
                       <td className="cursor">{bid.bids}</td>

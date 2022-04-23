@@ -19,16 +19,7 @@ function QuestionDetails() {
           })}
         </div>
       </div>
-      {data.profResponds.length !== 0 ? data.profResponds.map((item, index) => {
-        return <div className="anwers_div">
-          {item.answers.map((ans,i)=>{
-            return <p>{ans}</p>
-          })}
-        </div>;
-      }) :
-      
-      <div>No Answer</div>
-      }
+
     </div>
   );
 }
